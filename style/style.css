@@ -73,6 +73,7 @@ html {
 /*======================
 		Topo
 ========================*/
+
 header{
 	margin: 2vw 4vw 0 4vw;
 }
@@ -88,11 +89,20 @@ header nav ul li{
 header nav ul li.atual a{ 
 	color: #FF6464;
 } 
+
 /*======================
 		Conteúdo
 ========================*/
+
 main{
-	margin: 0 4vw 0 4vw;
+	margin: 0 6vw 0 6vw;
+}
+main.works section{
+	border-bottom: 1px solid gray;
+	padding: 6vw 0 2.7vw 0 ;
+}
+main.works section:last-child{
+	border: none
 }
 main.works h1{
 	font-size: 1.4rem;
@@ -104,4 +114,17 @@ main.works section h2{
 }
 main.works section p span.ano{
 	background: #FF6464;
+	color: white;
+	border-radius: 8px;
+	padding: 1px 7px 1px 7px;
+}
+main.works section p{
+margin: 20px 0 7px 0;
+}
+/*==================================
+			rodapé
+===================================*/
+footer {
+  text-align: center;
+  margin: 4vw 0 4vw 0;
 }
