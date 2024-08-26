@@ -142,7 +142,65 @@ section.banner button{
 	padding: 7px 7px 7px 7px;
 	border: 0;
 }
+section.Posts{
+	background-color: #edf7fa;
+	padding: 3vw 3vw 4vw 3vw;
+}
+section.Posts h2{
+	font-size: 1.7rem;
+	padding: 0 0 1vw 0;
+}
+section.Posts ul{
+	display: flex;
+}
+section.Posts ul li{
+	background-color: white;
+	margin: 0 1vw 0 0;
+	padding: 2vw 1.5vw 2vw 1.5vw;
+}
+section.Posts ul li:last-child{
+	margin: 0;
+}
+section.Posts ul li h3{
+	font-size:  1.2rem;
+	font-weight: bold;
+}
+section.Posts ul li p{
+	margin: 1.5vw 0 1.5vw 0;
+}
 
+section.ft-works h2{
+	font-size: 1.6rem;
+	margin: 2.5rem 0 0 0;
+
+}
+section.ft-works > div{
+	display: flex;
+}
+section.ft-works img{
+	margin: 2.5rem 0 2.5rem 0;
+}
+section.ft-works h3{
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin: 0 0 1.1rem 0;
+}
+section.ft-works p.pag{
+	color: rgb(171, 191, 197);
+	font-size: 1.4rem;
+	margin: 0 0 1.2rem 0;
+}
+section.ft-works p span{
+	background: #142850;
+	color: white;
+	font-weight: bold;
+	border-radius: 25px;
+	padding: 2px 7px 2px 7px;
+	margin:  0 2vw 2vw 0;
+}
+section.ft-works  div div p:last-child{
+margin: 0 2vw 2vw 0;
+}
 /*==================================
 			rodapé
 ===================================*/
