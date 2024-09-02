@@ -170,7 +170,7 @@ section.Posts ul li p{
 }
 
 section.ft-works h2{
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin: 2.5rem 0 0 0;
 
 }
@@ -181,7 +181,7 @@ section.ft-works img{
 	margin: 2.5rem 0 2.5rem 0;
 }
 section.ft-works h3{
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 	margin: 0 0 1.1rem 0;
 }
@@ -215,4 +215,8 @@ footer nav ul {
 footer nav ul li{
 		margin: 0 10px 10px 10px;
 		
+}
+footer nav ul li span{
+	font-size: 2.2rem;
+	margin: 1.3rem;
 }
